@@ -11,8 +11,8 @@ export function CheckBox ({checked, onChange, label, id}) {
     return <div className="form-check">
         <input checked={checked}
                id={id}
-               type="text"
-               onChange={(e) => onChange(e.target.value)}
+               type="checkbox"
+               onChange={(e) => onChange(e.target.checked)}
                className="form-check-input"
         />
         <label htmlFor={id} className="form-check-label">{label}</label>
