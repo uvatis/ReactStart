@@ -8,7 +8,7 @@
  */
 // eslint-disable-next-line react/prop-types
 export function Input ({value, placeholder, onChange}) {
-    return <div>
+    return <div className="m-3">
         <input
             type="text"
             className="form-control"
